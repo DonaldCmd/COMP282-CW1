@@ -28,19 +28,24 @@ This repository contains the coursework project for the COMP282 module at the Un
 
 ---
 
+
+
 ## 📁 Project Structure
 
-├── AdventureGame.cpp // Entry point and game loop
-├── Gameworld.h / .cpp // Game world initialization and logic
-├── Character.h / .cpp // Base character class
-├── Player.h / .cpp // Player logic and inventory
-├── Monster.h / .cpp // Monster class
-├── Boss.h / .cpp // Final boss subclass
-├── Item.h / .cpp // Item base class
-├── Potion.h / .cpp // Potion subclass
-├── Weapon.h / .cpp // Weapon subclass
-├── Treasure.h / .cpp // Treasure subclass
-├── Location.h / .cpp // Location system and exit handling
+| File                    | Description                              |
+| ----------------------- | ---------------------------------------- |
+| AdventureGame.cpp       | Entry point and game loop                |
+| Gameworld.h / .cpp      | Game world initialization and logic      |
+| Character.h / .cpp      | Base character class                     |
+| Player.h / .cpp         | Player logic and inventory               |
+| Monster.h / .cpp        | Monster class                            |
+| Boss.h / .cpp           | Final boss subclass                      |
+| Item.h / .cpp           | Item base class                          |
+| Potion.h / .cpp         | Potion subclass                          |
+| Weapon.h / .cpp         | Weapon subclass                          |
+| Treasure.h / .cpp       | Treasure subclass                        |
+| Location.h / .cpp       | Location system and exit handling        |
+
 
 
 ---
