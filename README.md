@@ -30,30 +30,33 @@ This repository contains the coursework project for the COMP282 module at the Un
 
 ## 📁 Project Structure
 
-## ├── AdventureGame.cpp      // Entry point and game loop
-## ├── Gameworld.h / .cpp     // Game world initialization and logic
-## ├── Character.h / .cpp     // Base character class
-## ├── Player.h / .cpp        // Player logic and inventory
-## ├── Monster.h / .cpp       // Monster class
-## ├── Boss.h / .cpp          // Final boss subclass
-## ├── Item.h / .cpp          // Item base class
-## ├── Potion.h / .cpp        // Potion subclass
-## ├── Weapon.h / .cpp        // Weapon subclass
-## ├── Treasure.h / .cpp      // Treasure subclass
-## ├── Location.h / .cpp      // Location system and exit handling
+├── AdventureGame.cpp // Entry point and game loop
+├── Gameworld.h / .cpp // Game world initialization and logic
+├── Character.h / .cpp // Base character class
+├── Player.h / .cpp // Player logic and inventory
+├── Monster.h / .cpp // Monster class
+├── Boss.h / .cpp // Final boss subclass
+├── Item.h / .cpp // Item base class
+├── Potion.h / .cpp // Potion subclass
+├── Weapon.h / .cpp // Weapon subclass
+├── Treasure.h / .cpp // Treasure subclass
+├── Location.h / .cpp // Location system and exit handling
 
-## 🕹 Gameplay Commands
 
-## Command       Description
-## -----------------------------------------------
-## north  / n    Move north
-## south  / s    Move south
-## east   / e    Move east
-## west   / w    Move west
-## collect       Collect all items in the location
-## inventory / inv   View categorized inventory
-## drink         Consume all potions to heal
-## quit   / q    Exit the game
+---
 
-## Combat will automatically begin if a monster is present in the room.
+## ⌨️ Gameplay Commands
+
+| Command        | Description                          |
+| -------------- | ------------------------------------ |
+| north / n      | Move north                           |
+| south / s      | Move south                           |
+| east / e       | Move east                            |
+| west / w       | Move west                            |
+| collect        | Collect all items in the location    |
+| inventory / inv| View categorized inventory           |
+| drink          | Consume all potions to heal          |
+| quit / q       | Exit the game                        |
+
+> 💥 Combat will automatically begin if a monster is present in the room.
 
