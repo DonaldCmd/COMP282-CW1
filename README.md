@@ -1,4 +1,3 @@
-The first assignment of the COMP282 course at the University of Liverpool in 2025 is a console mini-game written in C++. This code is for reference only. Please do not plagiarize.
 # Fantasy Quest Adventure Game
 
 This repository contains the coursework project for the COMP282 module at the University of Liverpool (2025). The project is a text-based console adventure game written in C++14 using object-oriented programming principles. The game features a navigable map, a turn-based combat system, an item and inventory system, and a final boss encounter.  
@@ -30,9 +29,9 @@ This repository contains the coursework project for the COMP282 module at the Un
 ---
 
 ## 📁 Project Structure
-## COMP282-CW1/
-## ├── AdventureGame.cpp** // Entry point and game loop
-## ├── Gameworld.h / .cpp // Game world initialization and logic
+
+├── AdventureGame.cpp** // Entry point and game loop
+├── Gameworld.h / .cpp // Game world initialization and logic
 ## ├── Character.h / .cpp // Base character class
 ## ├── Player.h / .cpp // Player logic and inventory
 ## ├── Monster.h / .cpp // Monster class
