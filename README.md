@@ -30,8 +30,8 @@ This repository contains the coursework project for the COMP282 module at the Un
 ---
 
 ## 📁 Project Structure
-COMP282-CW1/
-├── AdventureGame.cpp // Entry point and game loop
+## COMP282-CW1/
+**├── AdventureGame.cpp** // Entry point and game loop
 ├── Gameworld.h / .cpp // Game world initialization and logic
 ├── Character.h / .cpp // Base character class
 ├── Player.h / .cpp // Player logic and inventory
